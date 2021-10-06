@@ -1,0 +1,756 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
+ {
+  box-sizing: border-box;
+}
+
+main.main {
+  background-color: #202225;
+  font-family: 'Tajawal', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  perspective: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main.main .background {
+  position: absolute;
+  width: 6384px;
+  transform: scale(0.75) rotate(20deg);
+  display: flex;
+  opacity: 0.5;
+  pointer-event: none;
+  user-event: none;
+}
+main.main .background .inner > div:nth-child(1) {
+  animation: loop_1 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(2) {
+  animation: loop_2 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(3) {
+  animation: loop_3 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(4) {
+  animation: loop_4 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(5) {
+  animation: loop_5 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(6) {
+  animation: loop_6 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(7) {
+  animation: loop_7 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(8) {
+  animation: loop_8 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(9) {
+  animation: loop_9 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(10) {
+  animation: loop_10 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(11) {
+  animation: loop_11 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(12) {
+  animation: loop_12 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(13) {
+  animation: loop_13 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(14) {
+  animation: loop_14 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(15) {
+  animation: loop_15 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(16) {
+  animation: loop_16 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(17) {
+  animation: loop_17 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(18) {
+  animation: loop_18 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(19) {
+  animation: loop_19 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(20) {
+  animation: loop_20 var(--duration) infinite linear;
+}
+main.main .background .inner > div:nth-child(21) {
+  animation: loop_21 var(--duration) infinite linear;
+}
+main.main .overlay {
+  position: relative;
+  z-inde: 100;
+  padding: 32px;
+  background-color: white;
+  border-radius: 16px;
+  color: black;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+main.main .overlay h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+main.main .overlay p {
+  margin-bottom: 20px;
+}
+main.main .overlay p strong {
+  font-weight: 700;
+}
+main.main .overlay .link {
+  width: 100%;
+  padding: 10px;
+  background: #404eed;
+  border-radius: 30px;
+  margin-top: 30px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+@keyframes loop_1 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  5% {
+    display: block;
+    transform: translateY(-162px);
+  }
+  5.000001% {
+    display: none;
+    transform: translateY(-162px);
+  }
+  5.000002% {
+    display: none;
+    transform: translateY(3121px);
+  }
+  5.000003% {
+    display: block;
+    transform: translateY(3121px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_2 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  10% {
+    display: block;
+    transform: translateY(-324px);
+  }
+  10.000001% {
+    display: none;
+    transform: translateY(-324px);
+  }
+  10.000002% {
+    display: none;
+    transform: translateY(2959px);
+  }
+  10.000003% {
+    display: block;
+    transform: translateY(2959px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_3 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  15% {
+    display: block;
+    transform: translateY(-486px);
+  }
+  15.000001% {
+    display: none;
+    transform: translateY(-486px);
+  }
+  15.000002% {
+    display: none;
+    transform: translateY(2797px);
+  }
+  15.000003% {
+    display: block;
+    transform: translateY(2797px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_4 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  20% {
+    display: block;
+    transform: translateY(-648px);
+  }
+  20.000001% {
+    display: none;
+    transform: translateY(-648px);
+  }
+  20.000002% {
+    display: none;
+    transform: translateY(2635px);
+  }
+  20.000003% {
+    display: block;
+    transform: translateY(2635px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_5 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  25% {
+    display: block;
+    transform: translateY(-810px);
+  }
+  25.000001% {
+    display: none;
+    transform: translateY(-810px);
+  }
+  25.000002% {
+    display: none;
+    transform: translateY(2473px);
+  }
+  25.000003% {
+    display: block;
+    transform: translateY(2473px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_6 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  30% {
+    display: block;
+    transform: translateY(-972px);
+  }
+  30.000001% {
+    display: none;
+    transform: translateY(-972px);
+  }
+  30.000002% {
+    display: none;
+    transform: translateY(2311px);
+  }
+  30.000003% {
+    display: block;
+    transform: translateY(2311px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_7 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  35% {
+    display: block;
+    transform: translateY(-1134px);
+  }
+  35.000001% {
+    display: none;
+    transform: translateY(-1134px);
+  }
+  35.000002% {
+    display: none;
+    transform: translateY(2149px);
+  }
+  35.000003% {
+    display: block;
+    transform: translateY(2149px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_8 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  40% {
+    display: block;
+    transform: translateY(-1296px);
+  }
+  40.000001% {
+    display: none;
+    transform: translateY(-1296px);
+  }
+  40.000002% {
+    display: none;
+    transform: translateY(1987px);
+  }
+  40.000003% {
+    display: block;
+    transform: translateY(1987px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_9 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  45% {
+    display: block;
+    transform: translateY(-1458px);
+  }
+  45.000001% {
+    display: none;
+    transform: translateY(-1458px);
+  }
+  45.000002% {
+    display: none;
+    transform: translateY(1825px);
+  }
+  45.000003% {
+    display: block;
+    transform: translateY(1825px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_10 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  50% {
+    display: block;
+    transform: translateY(-1620px);
+  }
+  50.000001% {
+    display: none;
+    transform: translateY(-1620px);
+  }
+  50.000002% {
+    display: none;
+    transform: translateY(1663px);
+  }
+  50.000003% {
+    display: block;
+    transform: translateY(1663px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_11 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  55% {
+    display: block;
+    transform: translateY(-1782px);
+  }
+  55.000001% {
+    display: none;
+    transform: translateY(-1782px);
+  }
+  55.000002% {
+    display: none;
+    transform: translateY(1501px);
+  }
+  55.000003% {
+    display: block;
+    transform: translateY(1501px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_12 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  60% {
+    display: block;
+    transform: translateY(-1944px);
+  }
+  60.000001% {
+    display: none;
+    transform: translateY(-1944px);
+  }
+  60.000002% {
+    display: none;
+    transform: translateY(1339px);
+  }
+  60.000003% {
+    display: block;
+    transform: translateY(1339px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_13 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  65% {
+    display: block;
+    transform: translateY(-2106px);
+  }
+  65.000001% {
+    display: none;
+    transform: translateY(-2106px);
+  }
+  65.000002% {
+    display: none;
+    transform: translateY(1177px);
+  }
+  65.000003% {
+    display: block;
+    transform: translateY(1177px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_14 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  70% {
+    display: block;
+    transform: translateY(-2268px);
+  }
+  70.000001% {
+    display: none;
+    transform: translateY(-2268px);
+  }
+  70.000002% {
+    display: none;
+    transform: translateY(1015px);
+  }
+  70.000003% {
+    display: block;
+    transform: translateY(1015px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_15 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  75% {
+    display: block;
+    transform: translateY(-2430px);
+  }
+  75.000001% {
+    display: none;
+    transform: translateY(-2430px);
+  }
+  75.000002% {
+    display: none;
+    transform: translateY(853px);
+  }
+  75.000003% {
+    display: block;
+    transform: translateY(853px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_16 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  80% {
+    display: block;
+    transform: translateY(-2592px);
+  }
+  80.000001% {
+    display: none;
+    transform: translateY(-2592px);
+  }
+  80.000002% {
+    display: none;
+    transform: translateY(691px);
+  }
+  80.000003% {
+    display: block;
+    transform: translateY(691px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_17 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  85% {
+    display: block;
+    transform: translateY(-2754px);
+  }
+  85.000001% {
+    display: none;
+    transform: translateY(-2754px);
+  }
+  85.000002% {
+    display: none;
+    transform: translateY(529px);
+  }
+  85.000003% {
+    display: block;
+    transform: translateY(529px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_18 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  90% {
+    display: block;
+    transform: translateY(-2916px);
+  }
+  90.000001% {
+    display: none;
+    transform: translateY(-2916px);
+  }
+  90.000002% {
+    display: none;
+    transform: translateY(367px);
+  }
+  90.000003% {
+    display: block;
+    transform: translateY(367px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_19 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  95% {
+    display: block;
+    transform: translateY(-3078px);
+  }
+  95.000001% {
+    display: none;
+    transform: translateY(-3078px);
+  }
+  95.000002% {
+    display: none;
+    transform: translateY(205px);
+  }
+  95.000003% {
+    display: block;
+    transform: translateY(205px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_20 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  100% {
+    display: block;
+    transform: translateY(-3240px);
+  }
+  100.000001% {
+    display: none;
+    transform: translateY(-3240px);
+  }
+  100.000002% {
+    display: none;
+    transform: translateY(43px);
+  }
+  100.000003% {
+    display: block;
+    transform: translateY(43px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+@keyframes loop_21 {
+  0% {
+    display: block;
+    transform: translateY(0px);
+  }
+  105% {
+    display: block;
+    transform: translateY(-3402px);
+  }
+  105.000001% {
+    display: none;
+    transform: translateY(-3402px);
+  }
+  105.000002% {
+    display: none;
+    transform: translateY(-119px);
+  }
+  105.000003% {
+    display: block;
+    transform: translateY(-119px);
+  }
+  100% {
+    display: block;
+    transform: translateY(0px);
+  }
+}
+.card {
+  width: 500px;
+  height: 140px;
+  background-color: white;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  margin: 32px 16px;
+}
+.card:after {
+  content: "";
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  background-color: #404eed;
+  z-index: 1;
+  display: block;
+  position: absolute;
+}
+.card * {
+  z-index: 10;
+  position: relative;
+}
+.card .card--icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+  position: relative;
+}
+.card .card--icon img {
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.card .card--icon span {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #00c900;
+  z-index: 10;
+  border: solid 5px #404eed;
+}
+.card .card--content {
+  height: 100%;
+}
+.card .card--content .name {
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+.card .card--content .name span {
+  color: #2c2f33;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.card .card--content .playing {
+  height: 50%;
+}
+.card .card--content .playing span {
+  display: inline-block;
+  width: 100%;
+}
+.card .card--content .playing span.title {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #fbcf73;
+}
+.card .card--content .playing span.game {
+  margin-top: 5px;
+  font-size: 16px;
+  color: wite;
+}
